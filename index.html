@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Widgets - ES6</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <article class="card">
+      <header>
+        <div>
+          <h2>Empleados</h2>
+          <h4>Mas de 5 empleados</h4>
+        </div>
+        <div class="buttons">
+          <button class="active" onclick="selectList(this, 0)">Nuevos</button>
+          <button onclick="selectList(this, 1)">Viejos</button>
+        </div>
+      </header>
+      <div class="tables">
+        <table class="active">
+          <tbody class="active">
+            <tr>
+              <td>
+                <img class="avatar" src="img/001-boy.svg" />
+              </td>
+              <td>
+                <h3>Juan Pablo</h3>
+                <h4>Full-Stack</h4>
+              </td>
+              <td>
+                <h4>Puntuacion</h4>
+                <div class="stars">
+                  <img src="img/star-1.svg" />
+                  <img src="img/star-1.svg" />
+                  <img src="img/star-1.svg" />
+                  <img src="img/star-1.svg" />
+                  <img src="img/star-0.svg" />
+                </div>
+              </td>
+              <td>
+                <img class="social" src="img/github.svg" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img class="avatar" src="img/047-girl-25.svg" />
+              </td>
+              <td>
+                <h3>Mateo</h3>
+                <h4>HTML</h4>
+              </td>
+              <td>
+                <h4>Puntuacion</h4>
+                <div class="stars">
+                  <img src="img/star-1.svg" />
+                  <img src="img/star-1.svg" />
+                  <img src="img/star-0.svg" />
+                  <img src="img/star-0.svg" />
+                  <img src="img/star-0.svg" />
+                </div>
+              </td>
+              <td>
+                <img class="social" src="img/github.svg" />
+                
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img class="avatar" src="img/043-boy-18.svg" />
+              </td>
+              <td>
+                <h3>Luis</h3>
+                <h4>QA Tester</h4>
+              </td>
+              <td>
+                <h4>Puntuacion</h4>
+                <div class="stars">
+                  <img src="img/star-1.svg" />
+                  <img src="img/star-1.svg" />
+                  <img src="img/star-0.svg" />
+                  <img src="img/star-0.svg" />
+                  <img src="img/star-0.svg" />
+                </div>
+              </td>
+              <td>
+                <img class="social" src="img/github.svg" />
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <table>
+          <tbody class="active">
+            <tr>
+              <td>
+                <img class="avatar" src="img/014-girl-7.svg" />
+              </td>
+              <td>
+                <h3>Mery</h3>
+                <h4>Project Manager</h4>
+              </td>
+              <td>
+                <h4>Puntuacion</h4>
+                <div class="stars">
+                  <img src="img/star-1.svg" />
+                  <img src="img/star-1.svg" />
+                  <img src="img/star-0.svg" />
+                  <img src="img/star-0.svg" />
+                  <img src="img/star-0.svg" />
+                </div>
+              </td>
+              <td>
+                <img class="social" src="img/github.svg" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img class="avatar" src="img/018-girl-9.svg" />
+              </td>
+              <td>
+                <h3>David</h3>
+                <h4>Lider Tecnico</h4>
+              </td>
+              <td>
+                <h4>Puntuacion</h4>
+                <div class="stars">
+                  <img src="img/star-1.svg" />
+                  <img src="img/star-1.svg" />
+                  <img src="img/star-1.svg" />
+                  <img src="img/star-0.svg" />
+                  <img src="img/star-0.svg" />
+                </div>
+              </td>
+              <td>
+                <img class="social" src="img/github.svg" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img class="avatar" src="img/001-boy.svg" />
+              </td>
+              <td>
+                <h3>Alberto</h3>
+                <h4>Full-Stack</h4>
+              </td>
+              <td>
+                <h4>Puntuacion</h4>
+                <div class="stars">
+                  <img src="img/star-1.svg" />
+                  <img src="img/star-1.svg" />
+                  <img src="img/star-1.svg" />
+                  <img src="img/star-1.svg" />
+                  <img src="img/star-1.svg" />
+                </div>
+              </td>
+              <td>
+                <img class="social" src="img/github.svg" />
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </article>
+    <script src="main.js"></script>
+  </body>
+</html>

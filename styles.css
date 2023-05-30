@@ -5,7 +5,7 @@ body {
   place-items: center;
   background: #f5f8fa;
   color: #181c32;
-  font-family: "Euclid Circular A", "Poppins";
+  font-family: "sans-serif" !important; 
 }
 
 h2,
